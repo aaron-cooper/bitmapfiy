@@ -20,7 +20,7 @@ class XbmBuilder {
                 string_builder.AppendLine(",");
             } else {
                 string_builder.AppendLine();
-                string_builder.Append("}");
+                string_builder.Append("};");
             }
         }
         return string_builder.ToString();
